@@ -114,7 +114,7 @@ app.delete("/subscriptions/:uid/:symbol", loggedInCheck, auth, deleteSubscriptio
 //Server listens on port 3000
 // app.listen(3000, "10.0.0.22");                       //LAN testing
 // console.log("Server running on LAN.");
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 console.log('Server running at http://127.0.0.1:3000/');
 console.log(" -- Server running with 20 A.I. background users.")
 
