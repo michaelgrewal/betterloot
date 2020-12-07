@@ -1,14 +1,6 @@
-Michael Grewal
-100 739 181
-
-
-    OpenStack IP: 134.117.133.196
-    Instance: MichaelGrewal
-    username: student
-    password: michael1989
-
-    Go to 'FINAL' folder
-    run server.js to start the application.
+    run node server.js to start the application.
+    localhost:3000
+    
     You may register and login with your own info,
       OR you can login as 'auto1' through 'auto20' pw:tester
         If you choose to login as an auto user, you will notice the automation of orders
@@ -16,7 +8,9 @@ Michael Grewal
         Sit back and enjoy the 'auto' users.
 
 REST API:
-    Many routes support REST API well, especially the GET routes:
+    All routes support REST API, here are some examples (this is not a complete list).
+    Postman Collections allow for easier and quicker automated testing (see folder).
+    
       /users/:username
       /stocks                 ?symbol= &minprice= &maxprice=
       /stocks/symbol          ?startday= &endday=
