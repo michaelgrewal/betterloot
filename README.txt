@@ -4,6 +4,8 @@ Users can register, trade, create watchlists, view history, read news, and much 
     
     run node server.js to start the application.
     localhost:3000
+    or
+    https://betterloot.herokuapp.com/
     
     You may register and login with your own info,
       OR you can login as 'auto1' through 'auto20' pw:tester
