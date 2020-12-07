@@ -1,8 +1,5 @@
 // Michael Grewal
-// 100 739 181
-//SSH PW: michael1989
-//ip: 134.117.133.196
-
+//https://betterloot.herokuapp.com/
 
 //==================================================//
 /*                                                  */
