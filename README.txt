@@ -1,3 +1,7 @@
+BetterLoot is a stock market web app made with Node JS and Express.
+
+Users can register, trade, create watchlists, view history, read news, and much more.
+    
     run node server.js to start the application.
     localhost:3000
     
